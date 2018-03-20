@@ -8,7 +8,7 @@
     "start": "electron .",
     "installer": "build",
     "watch": "gulp watch",
-    "backup" "gulp backup",
+    "backup": "gulp backup",
     "build": "gulp"
   },
   "repository": {
