@@ -18,8 +18,8 @@ const tap = require('gulp-tap')
 var exec = require('child_process').exec;
 var chalk = require('chalk');
 var path = require('path');
-var ts = require('gulp-typescript');
-var version = "0.4.0";
+var ts = require('gulp-typescript'),
+    version = "0.4.0";
     
 var paths = {
   src: 'src/',
