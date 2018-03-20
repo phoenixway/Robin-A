@@ -1,0 +1,882 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nam",
+				"name"
+			],
+			[
+				"chat",
+				"chat-engines"
+			],
+			[
+				"Ro",
+				"Robin"
+			],
+			[
+				"f",
+				"f_error"
+			],
+			[
+				"f_",
+				"f_error"
+			],
+			[
+				"va",
+				"val"
+			],
+			[
+				"cha",
+				"changeUser"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"new",
+				"newname"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"use",
+				"userdata"
+			],
+			[
+				"setu",
+				"setUservars"
+			],
+			[
+				"Get",
+				"getUservar"
+			],
+			[
+				"o",
+				"outer_"
+			],
+			[
+				"ou",
+				"outer"
+			],
+			[
+				"today",
+				"todayDate"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"pa",
+				"padding-right\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"lef",
+				"margin-left\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"l",
+				"left\tfloat"
+			],
+			[
+				"aout",
+				"about"
+			],
+			[
+				"alert",
+				"alertify"
+			],
+			[
+				"ab",
+				"aboutMenu"
+			],
+			[
+				"me",
+				"menu"
+			],
+			[
+				"morn",
+				"morninghelper"
+			],
+			[
+				"setU",
+				"setUservar"
+			],
+			[
+				"ma",
+				"makeDir"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"Sett",
+				"SettingsStore"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"a",
+				"args"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"to",
+				"topic"
+			],
+			[
+				"r",
+				"random"
+			],
+			[
+				"t",
+				"topic"
+			],
+			[
+				"fil",
+				"fileName"
+			],
+			[
+				"set",
+				"setTimeout\tsetTimeout()"
+			],
+			[
+				"run",
+				"runControlScript"
+			],
+			[
+				"name",
+				"fileName"
+			],
+			[
+				"day",
+				"dayintro"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"doc",
+				"docs"
+			],
+			[
+				"i",
+				"inline-block\tdisplay"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bod",
+				"body"
+			],
+			[
+				"dayi",
+				"day0intro"
+			],
+			[
+				"da",
+				"daytext"
+			],
+			[
+				"deb",
+				"debugger"
+			],
+			[
+				"start",
+				"startInit"
+			],
+			[
+				"link",
+				"linkClicked"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"sho",
+				"showDocument"
+			],
+			[
+				"no",
+				"Notif"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"tgLa",
+				"tgLabel_"
+			],
+			[
+				"tg",
+				"tgLabel"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"Dat",
+				"Date"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"w",
+				"when"
+			],
+			[
+				"rec",
+				"recurring"
+			],
+			[
+				"min",
+				"minute"
+			],
+			[
+				"debu",
+				"debugger"
+			],
+			[
+				"from",
+				"from_"
+			],
+			[
+				"mom",
+				"moment"
+			],
+			[
+				"date",
+				"Date"
+			],
+			[
+				"ne",
+				"nextTime"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"mi",
+				"minutes"
+			],
+			[
+				"Nu",
+				"number"
+			],
+			[
+				"s",
+				"set"
+			],
+			[
+				"say",
+				"sayHello"
+			],
+			[
+				"send",
+				"sendToChat"
+			],
+			[
+				"bo",
+				"bott"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"sa",
+				"sayHello"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"add",
+				"addToWords"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"func",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/scripts/core-raw.js",
+			"settings":
+			{
+				"buffer_size": 22457,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scripts/chat-engines-raw.ts",
+			"settings":
+			{
+				"buffer_size": 34,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"pack ",
+				"Package Control: Remove Package"
+			],
+			[
+				"exec",
+				"Shell Exec: Open"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"snip",
+				"Snippet: Function"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/docs/Studio/IT/Robin A",
+		"/G/docs/Studio/IT/Robin A/brain",
+		"/G/docs/Studio/IT/Robin A/src",
+		"/G/docs/Studio/IT/Robin A/src/scripts"
+	],
+	"file_history":
+	[
+		"/G/docs/Studio/IT/Robin A/src/scripts/chat-engines.ts",
+		"/G/docs/Studio/IT/Robin A/src/scripts/state.js",
+		"/G/docs/Studio/IT/Robin A/src/main.js",
+		"/G/docs/Studio/IT/Robin A/src/scripts/chat-connector.js",
+		"/G/docs/Studio/IT/Robin A/src/index.html",
+		"/G/docs/Studio/IT/Robin A/src/scripts/core-raw.js",
+		"/G/docs/Studio/IT/Robin A/brain/begin.rive",
+		"/G/docs/Studio/IT/Robin A/brain/control.rive",
+		"/G/docs/Studio/IT/Robin A/brain/day-helper.rive",
+		"/G/docs/Studio/IT/Robin A/src/styles/awesomplete.css",
+		"/G/docs/Studio/IT/Robin A/src/styles/main.css",
+		"/G/docs/Studio/IT/Robin A/src/styles/auto-complete.css",
+		"/G/docs/Studio/IT/Robin A/src/scripts/ui",
+		"/G/docs/Studio/IT/Robin A/src/scripts/chat-connector-superscript.js",
+		"/G/docs/Studio/IT/Robin A/robindb.json",
+		"/G/docs/Studio/IT/Robin A/brain/general-phases.rive",
+		"/G/docs/Studio/IT/Robin A/gulpfile.js",
+		"/G/docs/Studio/IT/Robin A/src/scripts/libs/loki-fs-structured-adapter.js",
+		"/G/docs/Studio/IT/Robin A/build/scripts/core.js",
+		"/G/docs/Studio/IT/Robin A/src/scripts/libs/themes/black/easyui.css",
+		"/G/docs/Studio/IT/Robin A/src/styles/codemirror.css",
+		"/G/docs/Studio/IT/Robin A/src/scripts/main-raw.js",
+		"/G/docs/Studio/IT/others sources/vex-master/docs/api/1-Basic.md",
+		"/G/docs/Studio/IT/others sources/vex-master/docs/api/3-Advanced.md",
+		"/G/docs/Studio/IT/Robin A/src/scripts/manager-raw.ts",
+		"/G/docs/Studio/IT/Robin A/brain/general.bad-language.rive",
+		"/G/docs/Studio/IT/Robin A/brain/start.rive",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/My Snippets/MySnippets.sublime-settings",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/User/MySnippets.sublime-settings",
+		"/G/docs/Studio/IT/Robin A/src/scripts/libs/tau-prolog.js",
+		"/G/docs/Studio/IT/Robin A/src/scripts/libs/rivescript.js",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/G/docs/Studio/IT/Robin A/build/scripts/chat-connector.js",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/Terminality/README.md",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/Terminality/Terminality.sublime-settings",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/Terminality/Default.sublime-keymap",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-keymap",
+		"/G/docs/Studio/IT/Robin A/terminal.glue",
+		"/C/Users/Роберт/AppData/Roaming/Sublime Text 3/Packages/User/robin-a.sublime-build",
+		"/G/docs/Studio/IT/Robin A/dev-dashboard.html",
+		"/G/docs/Studio/IT/Robin A/src/scripts/libs/awesomplete.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chatEngine",
+			"systemNotifications",
+			"showDebugInOutput",
+			"change",
+			"username",
+			"Robin.state.get('rivescript_settings')",
+			"RiveScriptStateLocation",
+			"RiveScriptSettingsFile",
+			"RiveScriptStateLocation",
+			"json",
+			"home",
+			"user",
+			"Roman",
+			"addtv",
+			"updateTVars",
+			"14",
+			"9",
+			"focus",
+			"notify",
+			"alertify",
+			"App",
+			"settingsFilename",
+			"settings",
+			"Text",
+			"settingsFilename",
+			"setTVars",
+			"settv",
+			"updateNextTVars",
+			"uni",
+			"'});\n",
+			"work",
+			"morning0intro",
+			"morningintro",
+			"vars",
+			"get",
+			"queue",
+			"replace",
+			"<a",
+			"printMessageFunc",
+			"append",
+			"runControlScript",
+			"works",
+			"starti",
+			"doc[i].getTime() + self.ttlIndexes[i] * 1000)",
+			"Â",
+			"remove all expired documents",
+			"starti",
+			"loaddat",
+			"startinit",
+			"get:",
+			"get",
+			"Robin.db.get",
+			"showfile",
+			"showDocument",
+			"alertify",
+			"startinit",
+			"robin-a.db",
+			"fs",
+			"startinit",
+			"debugg",
+			"fs",
+			"startIni",
+			"startini",
+			"font-",
+			"font",
+			"pre",
+			"debugger",
+			"showdoc",
+			"theme",
+			"the",
+			".text",
+			",text",
+			"glad",
+			"font",
+			"controlScriptEditor",
+			"controlscr",
+			"controlscripteditor",
+			"main",
+			"15",
+			"printMessageFunc",
+			"append",
+			"startInit",
+			"wrap",
+			"chatoutput_textarea",
+			"chatinput_textarea",
+			"lava",
+			"notif",
+			"showDebugInConsole",
+			"showDebugInOutput",
+			"debugger",
+			"showDebugInOutput",
+			"showDebugInConsole",
+			"setti",
+			"};\n",
+			"}\n",
+			"say",
+			"gro",
+			"doafter",
+			"scheduleAction",
+			"task 3",
+			"debugger",
+			"note",
+			"remove",
+			"deb",
+			"func ",
+			"eval",
+			"recalc",
+			"parse",
+			"s.mat",
+			"getFormat",
+			"\"\"",
+			"nextActionA",
+			"nexttime",
+			"dati.each(2).hours();\n\t\tconsole.log(\"each 2 hours: \"+dati.toDate().toString());",
+			"dati.at(\"20:25\");\n\t\tconsole.log(\"20:25 at: \"+dati.toDate().toString());",
+			"sched",
+			"hastgtrue",
+			"> object updateNextTVars javascript\n    rs.setUservar(\"Roman\", \"nextTGambit\", undefined);\n    return;\n< object",
+			"save",
+			"saveProject_",
+			"updateNextTVars",
+			"svg",
+			"sayHello",
+			";\n",
+			"chatoutput_textarea",
+			"e",
+			"addliste",
+			"connection2chat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Verdana"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/scripts/core-raw.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scripts/chat-engines-raw.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript Syntax/TypeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/robin-a.sublime-build",
+	"project": "robin-a.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"chat",
+				"src\\scripts\\chat-connector.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"G:\\docs\\Studio\\IT\\Robin A\\robin-a.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 642.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

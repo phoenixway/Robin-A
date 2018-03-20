@@ -1,0 +1,40 @@
+like(roma, blindguardian).
+assure_day_planned(X) :- day_planned(X), !, true; write('<script>plan your day, please'), true.
+test(it).
+
+***
+[структура відповіді на запрос: session.answer(callback)]
+
+session.answer(callback)
+    again()
+        уже на вході є this.points    
+            один з низ містить запрос із session.query(запрос)
+        ітерація step
+            оброблються points
+                point 
+                    колекція State
+                        goal
+                            тип Term, Variables, інше трактується як помилка
+                                Term
+                                    значима управляюча одиниця
+                                    містить
+                                        id 
+                                        колекція аргументів
+                                        тип терма, який наз. indicator
+                                Vars 
+                                    id
+                            ціль, наприклад, likes із "likes(roma, vafers)."
+                        parent
+                        substitutions
+                            колекція substitution
+                                колекція link
+                                    пара Змінна-значення
+        створюється answer, 
+            тип Substitutions
+            містить
+                * одну з відповідей
+                * false - невдача
+                * exception - помилка
+        callback(answer) - викликається функція передана як аргумент в першому кроці
+            певні дії
+            callback(answer) - рекурсивно викликаємо для наступних можливіих відповідей

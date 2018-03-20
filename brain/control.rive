@@ -1,0 +1,71 @@
++ *
+* <get nextTGambit> != undefined => {topic=<get nextTTopic>}{@<get nextTGambit>}<call>updateTVars</call>
+- Don't know what to say.
+- Say again in different way.
+- Can`t say about.
+
+  + robi hello
+  * <get name> != undefined => Welcome back, <get name>. 
+  - {topic=new_user}
+
+  + robi say *
+  - <star1>
+
++ robi gambit * *
+- {topic=<star1>}{@<star2>}
+
++ robi topic *
+- {topic=<star>}
+
++ robi set tvars * *
+- <call>addTVars <star1> <star2></call>
+
++ robi silence
+* <get nextTGambit> != undefined => {@ fake}
+- {topic=random}
+
++ vars
+- nextTGambit: <get nextTGambit>, nextTTopic: <get nextTTopic>
+
++ set vars
+- Setting vars to sample values <set nextTTopic=morningintro> <set nextTGambit=morning0intro>
+
++ clear vars
+- <set nextTGambit=undefined>
+
++ hastgtrue
+- <call>hasTGtrue</call>
+
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+> object updateNextTVars javascript
+    rs.setUservar("Roman", "nextTGambit", undefined);
+    this.hasTGambits = false;
+    return;
+< object
+
+> object hasTGtrue javascript
+    this.hasTGambits = true;
+    //console.log(this.hasTGambits);
+    return;
+< object
+
+
+
+> object getHour javascript
+    let date = new Date();
+    let hour = date.getHours();
+    let result;
+    if (hour < 6)
+        result = 'night';
+     else if (hour > 11 && hour < 17)
+        result = 'day';
+     else if (hour >= 6 && hour <= 11)   
+        result = 'morning';
+     else if (hour > 17 || hour <= 23)
+        result = 'evening';
+    //console.log(`this is::: ${global}`);
+    return result;
+< object

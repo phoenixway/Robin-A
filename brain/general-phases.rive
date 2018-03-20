@@ -1,0 +1,68 @@
++ (hi|hello|sholom)
+- {@next}
+// - hello
+// - hi
+- Glad to see you
+// - sholom
+// - assalamaleihum salam
+
++ me too
+% glad to see you
+- {@next}
+
++ you never *
+- Mean I'm stupid?
+
++ yes
+% * stupid
+- You're my developer.
+
++ no
+% i * stupid
+- Thank for aknowledging my traits.
+
++ nothing
+- Ok.
+- As you say.
+- Wainting for requests.
+
++ (yes|i see|[i] understand|ok)
+- {@next}
+
++ ((say [*] (again)|([once] more))|repeat [*])
+- Repeating for you - "<reply>"
+
++ (muhahah|buhahah|hah)
+- Glad that you're laugthing.
+
++ debug
+- ! debug=true
+
++ antidebug
+- <set debug=false>true!
+
++ next
+- And?
+- What's next?
+- What do you want to do?
+- What do you want to talk about?
+- Can I help you?
+
++ don*t ask
+- ok
+
++ [*] tell me *
+- Use Google for it.
+- I'm not Wikipedia.
+- Don't know.
+
++ (test|bla|la|va)
+- lalala
+- vavava
+- Buahahahah
+- Muahah
+- What?
+- *random is calling*
+
++ [*] (rougthly|vulgar) [*]
+- Sorry.

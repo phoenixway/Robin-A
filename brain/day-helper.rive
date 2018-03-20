@@ -1,0 +1,94 @@
+! local concat = newline
+
+ > topic dayimportance
+ 
+		+ day0importance
+		- Each day is super important. Wish you to use maximally this day for your highest values! <new replica> Remind you why day is so <a data-file='dayimportance'>imporant</a>?<call>updateVarWithDate dayintrosaid</call>
+
+		+ [*] (yes|help|remind) [*]
+		- {@ dayimportance0text}
+
+		+ *
+		- {topic=random}
+
+		+ dayimportance0text
+		- Day is an only point, when we can live, rise, doing important things and fight. The only way to live a good life is to make your every day really best! {topic=random}
+
+< topic
+
+> topic dailyprinciples
+ 
+		+ daily0principles
+		- There are several principles, absolutely necessary for living your perfect day. Like in chess you must be guided by right principles to win. You have to always remember them and use them in each decision making. 
+		^ I can help you to <a data-file='dayintro'>recall</a> some of them.{topic=random}
+
+< topic
+
+> topic morningintro
+	
+		+ morning0intro
+		* <get morningintrosaid> == <call>todayDate</call> => {topic=random}
+		- Now is morning. Without using your best this morning the day would not be perfect. I can remind you the <a data-file='morningtasks'>most important tasks now</a>. Please, accomplish them as soon as you can.<call>updateVarWithDate morningintrosaid</call>
+
+		+ [*] (yes|help|remind) [*]
+		- {@ morning0tasks}
+
+		+ *
+		- {topic=random}
+
+		+ morning0tasks
+		- The most important things in morning  are: 
+		^ - The preparation of a day to be lived closely to your ideals, great today performance. 
+		^ - To prepare yourself to it innerly. It includes right thinking, attitude, beliefs, self-motivation. Body care and preparation (exercises, etc). 
+		^ - Optimal goals. 
+		^ - <a data-file='day plan'>Optimal day planning.</a>
+		^ - Timing. Do all initial things as fast as it possible. It's extremely important to do all of them completely and quickly. <new replica> I can help you with this tasks. Just click on links or ask me.{topic=random}
+
+< topic
+
+> topic dayscopeintro
+	+ *
+	- {topic=random}
+
+	+ dayscope0intro
+	* <get hourr> == undefined => <set hourr=<call>getHour</call>> {@ dayscope0intro}
+	* <get hourr> == night => It's night already. <set nightintrosaid=<call>todayDate</call>>{topic=random}
+	* <get hourr> == evening => It's evening. Use the maximum of available opportunities.<set eveningintrosaid=<call>todayDate</call>>{topic=random}
+	* <get hourr> == day => It's a middle of a day already.<set dayintrosaid=<call>todayDate</call>>{topic=random}
+	* <get hourr> == morning => {topic=morningintro}{@morning0intro}<set morningintrosaid=<call>todayDate</call>>{topic=random}
+	- {topic=random}
+< topic
+
+> topic dayscopecontroller
+
+	+ dayscope0controller
+	* <get hourr> == undefined => <set hourr=<call>getHour</call>> {@ dayscope0controller}
+	* <get hourr> == night => Night control.{topic=random}
+	* <get hourr> == evening => What about reflection, tommorow planning, rest?{topic=random}
+	* <get hourr> == day => Day principles control.{topic=random}
+	* <get hourr> == morning => {topic=morningcontroller}{@morning0controller}
+	- {topic=random}
+< topic
+
+> topic dayscopehelper
+	+ dayscope0helper 
+	* <get hourr> == undefined => <set hourr=<call>getHour</call>> {@ dayscope0helper}
+	* <get hourr> == night => Please, think about sleeping.{topic=random}
+	* <get hourr> == evening => An evening is a time for reflection, tommorow planning and rest. Use the maximum of available opportunities.{topic=random}
+	* <get hourr> == day => Middle of a day  is time for implementation! \nIf things went wrong before this moment, it's not too late to correct your performance and an outer world.{topic=random}
+	* <get hourr> == morning => {topic=morninghelper}{@morning0helper}
+	- {topic=random}
+< topic
+
+> topic morninghelper
+		+ morning0helper
+		- Please do day preparation as soon as you can.{topic=random}
+
+		+ *
+		- {topic=random}		
+< topic
+
+> topic morningcontroller
+		+ morning0controller
+		- Do you realize right principles, own decisions and highest values? {topic=random}
+< topic

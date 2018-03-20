@@ -1,0 +1,241 @@
+<html>
+    
+
+<head>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+
+
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/codemirror.css">
+    <link rel="stylesheet" href="scripts/libs/theme/abcdef.css">    
+    <link rel="stylesheet" href="scripts/libs/theme/dracula.css">    
+    <link rel="stylesheet" href="styles/dracula.css">    
+    <link rel="stylesheet" href="scripts/libs/addon/display/fullscreen.css">
+    <link rel="stylesheet" type="text/css" href="scripts/libs/themes/black/easyui.css">
+	<link rel="stylesheet" type="text/css" href="scripts/libs/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="styles/demo.css">
+    <link rel="stylesheet" href="styles/awesomplete.css" />
+    <link rel="stylesheet" href="styles/iziToast.min.css" />
+    <link rel="stylesheet" href="styles/alertify.core.css" />
+    <link rel="stylesheet" href="styles/alertify.bootstrap.css" />
+
+<script language="javascript" type="text/javascript" src="scripts/libs/jquery-3.2.1.min.js"></script>
+
+    <script src="scripts/libs/awesomplete.js" async></script>
+    <script type="text/javascript" src="scripts/libs/auto.max.js"></script>
+    <script type="text/javascript" src="scripts/libs/iziToast.min.js"></script>
+    <script type="text/javascript" src="scripts/libs/mega-autocomplete.js"></script>
+    <script type="text/javascript" src="scripts/libs/alertify.min.js"></script>
+    <script type="text/javascript" src="scripts/libs/taffy.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>     -->
+    
+	<script type="text/javascript" src="scripts/libs/jquery.easyui.min.js"></script>
+    
+    <script src="scripts/libs/codemirror.js"></script>
+<!--    <script src="scripts/libs/auto-complete.js"></script>-->
+	
+    <script src="scripts/libs/octave.js"></script>
+    <script src="scripts/libs/output.js"></script>
+	<script src="scripts/libs/javascript.js"></script>
+    <script src="scripts/libs/addon/edit/matchbrackets.js"></script>
+    <script src="scripts/libs/addon/display/autorefresh.js"></script>
+    <script src="scripts/libs/addon/selection/active-line.js"></script>
+    <script src="scripts/libs/addon/scroll/scrollpastend.js"></script>
+    <script src="scripts/libs/addon/display/fullscreen.js"></script>
+<!--
+	<script src="lib/addon/fold/foldcode.js"></script>
+	<script src="lib/addon/fold/foldgutter.css"></script>
+	<script src="lib/addon/fold/comment-fold.js"></script>
+-->
+    <script src="scripts/libs/plugins/jquery.panel.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/libs/notify.min.js"></script>
+	<script type="text/javascript" src="scripts/libs/rivescript.js"></script>
+
+<!--	<script src="scripts/libs/jquery-ui.js"></script>-->
+    <title>Robin A</title>
+</head>
+
+<body style="overflow: hidden; margin: 10px, 0;">
+    <div align="center">
+        <input type="file" name="scriptLoadInput" id="scriptLoadInput" style="position: fixed; display: none;">
+        <input type="file" name="statesLoadInput" id="statesLoadInput" style="position: fixed; display: none;">
+    </div>
+	<div class="easyui-tabs" id="tt" style="width:100%;height:90%">
+            
+	    <div title="Chat" style="padding:10px">
+            <div style="">
+                <div style="
+                    float: left;
+                    width: 40px;
+                    background-color: black; 
+                ">
+                        <!-- <input id="clearChatInputButton" type="button" class="button" value="Clear" > -->
+                        <input id="sayChatInputButton" type="button" class="button" value="Say">
+                </div>
+                <div style="
+                    margin-left: 40px;
+                    background-color: black; 
+                    position: fixed;
+                    left: 30px;
+                    /*flow: right ;*/
+                    /*width: 100%;*/
+                    right: 15px;
+                    z-index: 20;
+                        " >
+                    <input 
+                        autofocus
+                        data-list="" 
+                        data-multiple 
+                        data-minchars="1" 
+                        placeholder="Message.." 
+                        id="chatinput_textarea"
+                        title="type" 
+                        type="text"
+                        style="
+                            background-color: black; 
+                            color: #ffdba8;
+                            height: 28px;
+                            position: relative;
+                            top: -2px;
+                            z-index: 1;
+                            /**/
+                            /*left: 80px;*/
+                            /*right: 0px;
+                            width: 100%;*/
+                            /*left: 0;
+                            position: absolute;
+                            */
+                            /*right: 0;*/
+                            "
+                    />
+                </div>  
+            </div>
+            <p>
+            <div id="chatoutput_textarea" style="
+                overflow-y: auto;
+                overflow-x: hidden;
+                word-wrap: normal;
+                border:0.3px solid;
+                position: fixed;
+                z-index: 1;
+                bottom: 20px;
+                right: 30px;
+                left: 31px;
+                top: 95px;
+                padding: 10px;
+                background-color: black;
+                font-size: 16; 
+                color: lightskyblue; 
+                "></div>
+            <!-- <textarea id="chatoutput_textarea" readonly style="height: 83%; width: 95%; color: lightskyblue; background: black"></textarea> -->
+             <p>
+        </div>		
+		<div title="Scripts" style="padding:10px;" >
+            <!-- <div class="easyui-layout" style="width: 100%; height: 100%; "> -->
+                <div data-options="region:'center', split: true" title="Script" style="height: 80%; width:100%; padding:-10px">
+                    <textarea id="script_textarea" style="height: 100%; width: 100%;">
+                    </textarea>
+                </div>
+                <div data-options="region:'south', split:true" title="States" style="height:20%; width:100%; padding:-10px; ">
+                    <textarea id="statevars_textarea" style="height: 100%; width: 100%;">
+                    </textarea>
+                </div>
+            <!-- </div> -->
+		</div>
+		<div title="Control script" style="padding:10px">
+			<textarea id="controlscript_textarea" style="height: 85%; width: 100%;"></textarea>
+        </div>
+        <div title="Output" style="padding:10px">
+            <div class="query_area">
+                <textarea id="query_textarea" style="width: 100%; height: 5%;background-color: black; color: #ffdba8;"></textarea>
+                <a href="#" onclick="Robin.ui.runQuery()">Query</a>
+            </div>
+            <div class="output_area" style="height: 85%">
+                <textarea id="output_textarea"></textarea>
+                <a href="#" onclick="Robin.ui.output.clear()">Clear output</a>
+            </div>
+        </div>
+	</div>
+    
+    <script>
+        $('#tt').tabs({
+				plain: true,
+				pill: true,
+			});
+    </script>
+    
+<script language="javascript" type="text/javascript" src="scripts/core.js"></script>
+    
+    <script type="text/javascript">
+
+		window.onload = function() {
+            var input = document.getElementById("chatoutput_textarea");
+            input.onchange = checkLink;
+            input.onblur = checkLink;
+
+            // input.addEventListener('change', checkLink);
+            // chatoutput_textarea.addEventListener('change', checkLink);
+            // input.addEventListener('blur', checkLink);
+
+            function checkText(text){
+                 var exp = "((ht|f)tp(s?))(:((\/\/)(?!\/)))(((w){3}\.)?)([a-zA-Z0-9\-_]+(\.(com|edu|gov|int|mil|net|org|biz|info|name|pro|museum|co\.uk)))(\/(?!\/))(([a-zA-Z0-9\-_\/]*)?)([a-zA-Z0-9])+\.((jpg|jpeg|gif|png)(?!(\w|\W)))";
+                 return text.match(exp);
+            }
+            function checkLink(e){
+                 //here you would want to use a regular expression and check for http:
+
+                 var regularExpression = !!checkText(e.target.innerHTML); // returns true or false
+                 if(regularExpression){
+                   e.target.innerHTML += `<a href='#'><img src="" alt="" /></a>`;
+                 }
+            }
+
+			console.log = Robin.ui.log;
+			console.debug = Robin.ui.debug;
+			// var area = new AutoSuggestControl("chatinput_textarea"); 
+
+			Robin.ui.init(
+				{
+					script_textarea,
+					statevars_textarea,
+					controlscript_textarea,
+					output_textarea,
+					scriptLoadInput: document.getElementById("scriptLoadInput"),
+					statesLoadInput: document.getElementById("statesLoadInput"),
+					query_textarea,
+					chatinput_textarea,
+					chatoutput_textarea,
+					clearChatInputButton: document.getElementById("clearChatInputButton"),
+                    sayChatInputButton: document.getElementById("sayChatInputButton")
+				}
+			);
+            $('#tt').css("background-color", "black");
+            let s = $('#tt').tabs('tabs');
+            s.forEach(element => {
+                element.css("background-color", "black");
+                element.css("color", "#ffdba8");
+            });
+        };
+       $(window).resize(
+           () => {
+                // let element = document.getElementById('chatoutput_textarea')
+                // let bodyrect = document.body.getBoundingClientRect()
+                // let height = bodyrect.height - 200;
+                // element.style['max-height'] = height
+                // element.style['min-height'] = height
+                // $('#menu').panel('refresh')
+           }
+       );
+		$(window).blur(
+           () => {
+               Robin.state.set('systemNotifications', true)
+           })
+		
+    </script>
+    <script>if (window.module) module = window.module;</script>
+
+</body>
+
+</html>
